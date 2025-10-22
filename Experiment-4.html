@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <form action="./response.html">
+        <fieldset>
+        <h1>Hotel Room Booking Form</h1>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br> <br>
+        <label for="phone">Phone:</label>
+        <input type="phone" id="phone" name="phone" required>
+        <br> <br>
+        <label for="Check-in-Date">Check-in-Date:</label>
+        <input type="date" id="Check-in-Date" name="date" required>
+        <br> <br>
+        <label for="Check-out-Date">Check-out-Date:</label>
+        <input type="date" id="Check-out-Date" name="date" required>
+        <br> <br>
+        <label for="Room type">Room Type:</label>
+        <select>
+            <option>Select your Room</option>
+            <option>Single Room</option>
+            <option>Double Room</option>
+            <option>Triple Room</option>
+        </select>
+        <br> <br>
+        <label for="Guests">Number of Guests:</label>
+        <input type="number" id="guests" name="Guests" min="1" max="6">
+        <br> <br>
+        <label for="request">Special Requests:</label>
+        <textarea type="text" id="request" rows="5" cols="40"></textarea>
+        <br> <br>
+        <button type="submit">Book now</button>
+        <button type="reset">Reset form</button>
+       </fieldset>
+    </form>
+</body>
+</html>
